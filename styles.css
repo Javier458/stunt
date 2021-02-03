@@ -4,16 +4,18 @@
     font-family: 'Oswald', sans-serif;
 }
 
+/*Scroll Personalized*/
 
-
-.menu{
-    background-color:red;
-    width: 100%;
+body::-webkit-scrollbar{
+    width: 15px;
+    background-color: #000;
 }
 
-.menu a {
-    margin: 0px 15px;
+body::-webkit-scrollbar-thumb{
+    background-color: #ffff00;
+    border-radius: 5px;
 }
+
 
 @media screen and (max-width:320px){
 
