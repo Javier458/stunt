@@ -16,6 +16,35 @@ body::-webkit-scrollbar-thumb{
     border-radius: 5px;
 }
 
+/*Nav Styles*/
+
+header .menu{
+    background-color: #4a4a46;
+    height: 50px;
+    padding: 5px;
+}
+
+header .menu ul{
+    margin: auto;
+    width: 50vw;
+    text-align: right;
+}
+
+header .menu ul li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+header .menu ul li a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 2px;
+}
+
+.line-nav{
+    border: 2px solid #ffff00;
+}
 
 @media screen and (max-width:320px){
 
