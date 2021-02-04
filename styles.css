@@ -12,16 +12,18 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-    background-color: #ffff00;
+    background-color: #FFFF00;
     border-radius: 5px;
 }
 
 /*Nav Styles*/
 
 header .menu{
-    background-color: #4a4a46;
+    background-color: #4b4b4b;
     height: 50px;
     padding: 5px;
+    position: fixed;
+    width: 100%;
 }
 
 header .menu ul{
@@ -42,9 +44,17 @@ header .menu ul li a{
     padding: 2px;
 }
 
-.line-nav{
-    border: 2px solid #ffff00;
+header .menu ul li a:hover{
+    color: #FFFF00;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .2s;
 }
+
+.line-nav{
+    border: 2px solid #FFFF00;
+}
+
 
 @media screen and (max-width:320px){
 
