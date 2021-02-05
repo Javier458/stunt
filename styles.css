@@ -109,6 +109,57 @@ header .menu ul li a:hover{
     margin: 50px 0 0 0px;
 }
 
+/*Plans Styles*/
+
+.plans{
+    background-color: #FFFF00;
+    color: #000;
+    display: flex;
+    padding: 0 16vw;
+}
+
+.plans img{
+    width: 400px;
+}
+
+.plans__text{
+    width: 400px;
+    height: 300px;
+    margin: auto 40px;
+    text-align: center;
+    padding: 25px;
+}
+
+.plans__h1{
+    font-size: 32px;
+    text-shadow: 8px 5px 8px #000;
+}
+
+.plans__p{
+    font-size: 20px;
+    width: 280px;
+    margin: auto;
+}
+
+.plans__button{
+    display: block;
+    margin: 20px auto;
+    background-color: #000;
+    text-decoration: none;
+    padding: 20px;
+    width: 150px;
+    border-radius:10px;
+    color: #FFFF00;
+    font-size: 20px;
+}
+
+.plans__button:hover{
+    border: 2px solid #000;
+    background-color: #FFFF00;
+    color: #000;
+    transition: .2s;
+}
+
 @media screen and (max-width:320px){
     body{
         background-color: red;
